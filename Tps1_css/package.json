@@ -1,0 +1,19 @@
+{
+  "name": "condigtech",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^6.4.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "npx": "^10.2.2",
+    "tsc": "^2.0.4"
+  }
+}
