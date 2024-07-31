@@ -47,6 +47,9 @@ class Animal{
         return "animal name :"+this.name+" species:"+this.species;
     }
 }
+
+const animal = new Animal('cat','ciamo');
+console.log(animal.describe());
 // 4.1
 enum EJsemaine{
     Lundi="Lundi",
@@ -69,6 +72,15 @@ function semaine(day:string):string{
 }
 
 // 5.1
+
+function f<T> (paramas:T[]):T{
+    if(!paramas.length){
+        console.log("")
+    }
+    return paramas[0]
+    
+}
+
 let users:IPerson[] =[
 
     {firstName:'ahmed',age:23,isSleep:false},
